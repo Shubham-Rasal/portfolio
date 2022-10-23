@@ -27,7 +27,7 @@ export const projects = [
         index: 3,
         title: "Twitter Clone",
         image: twitter,
-        description: "An attempt to build a twitter clone built using React , Vanilla CSS and Twitter API",
+        description: "An attempt to build a twitter clone  using React , Vanilla CSS and Twitter API",
         tech: ["React", "Tailwind", "HTML", "Solidity", "Web3"],
         
         github: "https://github.com/Shubham-Rasal/coders-dao",

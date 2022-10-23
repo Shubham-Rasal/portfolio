@@ -34,7 +34,9 @@ export default function App() {
        font-pangolin 
        bg-slate-100"
       >
-        <section className="about snap-center  h-screen w-screen flex justify-center items-center flex-col dark:bg-slate-900  bg-slate-50 ">
+        <section className="about snap-center  h-screen w-screen flex justify-center items-center flex-col
+         dark:bg-slate-900  bg-slate-200
+         transition duration-700 ">
           <img
             src={code}
             alt=""
@@ -42,7 +44,7 @@ export default function App() {
             width={100}
             className="rounded-full 
                      motion-safe:animate-bounce
-                      lg:text-6xl lg:h-64 lg:w-64 my-12
+                      lg:text-6xl lg:h-48 lg:w-48 my-12
                      dark:drop-shadow-[0_35px_120px_rgba(28,255,286,1)]
                      w-48 h-48 md:text-4xl
 
@@ -56,7 +58,7 @@ export default function App() {
           <h3 className="text-2xl transition duration-700 my-2n text-teal-600 dark:text-teal-400 ">
             Software Enthusiast
           </h3>
-          <p className="dark:text-teal-600 text-xl my-4 lg:w-1/2 w-full px-3  text-center">
+          <p className="dark:text-teal-600 text-xl my-4 lg:w-1/2 w-full px-3  text-slate-700 text-center">
             I am a software developer who loves to build things that live on the
             internet, from websites to web apps. I specialize in building
             exceptional websites, applications, and everything in between.
@@ -85,10 +87,10 @@ export default function App() {
           </div>
         </section>
 
-        <section className="projects flex flex-col items-center justify-center snap-center  h-fit w-screen bg-slate-100 dark:bg-slate-900 transition duration-700 ">
+        <section className="projects flex flex-col items-center justify-center snap-center  h-fit w-screen bg-slate-200 dark:bg-slate-900 transition duration-700 ">
           <h1
             className="text-4xl text-center justify-center flex items-start w-screen font-semibold font-pangolin
-         dark:bg-slate-900 bg-slate-100 mt-2 dark:text-teal-300 transition duration-700 px-8 border-b-4 
+         dark:bg-slate-900 bg-slate-200 mt-2 dark:text-teal-300 transition duration-700 px-8 border-b-4 
          lg:w-1/2 border-teal-300 dark:border-teal-400 p-4 "
           >
             Projects

@@ -8,7 +8,7 @@ export const ProjectCard = ({ project }) => {
     <div
       className="card w-screen h-auto m-16 p-2
      flex flex-col items-center  dark:bg-slate-900 dark:text-teal-200
-     transition duration-700
+     transition duration-700 bg-teal-50
     "
     >
       <div className="flex relative pb-6 w-screen items-center h-36">
@@ -29,11 +29,11 @@ export const ProjectCard = ({ project }) => {
           {project.title}
         </h2>
       </div>
-      <div className="flex flex-col m-1 lg:h-96 lg:justify-around justify-center w-screen items-center lg:flex-row lg:flex  ">
+      <div className="flex flex-col m-1 lg:h-96 lg:justify-around justify-center w-screen items-center lg:flex-row lg:flex   ">
         <div
-          className=" lg:h-96 m-3 hover:bg-teal-700 transition-all duration-500  aspect-auto
+          className=" lg:h-96 m-3  hover:dark:bg-slate-800  transition-all duration-500  aspect-auto
          flex items-center justify-center 
-         p-4 bg-teal-900 rounded-md shadow-2xl"
+         lg:p-4 p-2 dark:bg-slate-900 bg-white rounded-md shadow-2xl"
         >
           <img
             src={project.image}
