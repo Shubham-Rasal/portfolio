@@ -47,7 +47,7 @@ export const ProjectCard = ({ project }) => {
             {project.description}
           </p>
           <div className="tech w-full  ">
-            <div className="flex w-full flex-wrap items-center justify-center">
+            <div className="flex w-full flex-wrap items-center justify-start">
               {project.tech.map((skill) => (
                 <div className="w-fit p-2 m-2 px-3 shadow-2xl shadow-slate-900  rounded-md dark:bg-slate-800   ">
                   {skill}
