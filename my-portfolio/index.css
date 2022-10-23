@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,15 +15,13 @@
 
 /* inspector for out of bound divs */
 /* * {
-    outline: 1px solid #f00 !important;
+    outline: 1px solid #f00 !important; 
 } */
 .skillcard {
   border-image: radial-gradient(circle at top left , rgb(28, 255, 236),transparent 50%);
   border-image-slice: 1;
 }
 
-h1{
-    text-shadow: ;
-}
+
     /* background: rgb(0,255,209);
     background: linear-gradient(58deg, rgba(0,255,209,1) 0%, rgba(0,211,255,1) 100%); */

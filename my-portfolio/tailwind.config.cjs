@@ -14,6 +14,11 @@ module.exports = {
             '0 45px 65px rgba(0, 0, 0, 0.15)'
         ]
       },
+      fontFamily: {
+        'my-font': ['Inter', 'ui-sans-serif', 'system-ui'],
+        'serif': ['ui-serif', 'Georgia'],
+        'pangolin': ['Pangolin', 'cursive'],
+      },
      
     },
   },
