@@ -51,7 +51,7 @@ export const projects = [
     index: 5,
     title: "iNeural",
     image: ineural,
-    description: "A simple double hidden layer neural network built using javascript.",
+    description: "A simple neural network library built from scratch in  javascript. It can be used for image classification, regression, and clustering.",
     tech: ["Javascript"],
     github: "https://github.com/Shubham-Rasal/iNeural",
     },

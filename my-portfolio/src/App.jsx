@@ -5,6 +5,9 @@ import number from "./assets/number-one.png";
 import code from "./assets/code.svg";
 import dark from "./assets/dark.svg";
 import light from "./assets/light.svg";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import {SiGmail} from "react-icons/si";
+import {FaTwitter} from "react-icons/fa";
 
 import { projects } from "./projects";
 export default function App() {
@@ -34,9 +37,11 @@ export default function App() {
        font-pangolin 
        bg-slate-100"
       >
-        <section className="about snap-center  h-screen w-screen flex justify-center items-center flex-col
+        <section
+          className="about snap-center  h-screen w-screen flex justify-center items-center flex-col
          dark:bg-slate-900  bg-slate-200
-         transition duration-700 ">
+         transition duration-700 "
+        >
           <img
             src={code}
             alt=""
@@ -61,9 +66,9 @@ export default function App() {
           <p className="dark:text-teal-600 text-xl my-4 lg:w-1/2 w-full px-3  text-slate-700 text-center">
             I am a software developer who loves to build things that live on the
             internet, from websites to web apps. I specialize in building
-            exceptional websites, applications, and everything in between.
-             Some technologies I enjoy working with include
-            ReactJS, NodeJS, ExpressJS, MongoDB, and Firebase.
+            exceptional websites, applications, and everything in between. Some
+            technologies I enjoy working with include ReactJS, NodeJS,
+            ExpressJS, MongoDB, and Firebase.
           </p>
         </section>
 
@@ -99,6 +104,27 @@ export default function App() {
             {projects.map((project, index) => {
               return <ProjectCard project={project} key={index} />;
             })}
+          </div>
+        </section>
+        <section className="contact snap-center  h-fit w-screen flex  items-center flex-col bg-slate-200   dark:bg-slate-900 dark:text-teal-300  transition duration-700 ">
+          <h1 className=" text-black p-3 m-3 text-4xl text-center justify-center flex items-start  font-semibold dark:text-teal-300 transition duration-700 border-b-4 w-1/2 border-teal-300 dark:border-teal-400 ">
+            Contact
+          </h1>
+          <div className="links p-4 m-4  flex w-screen items-center justify-center lg:gap-16">
+
+          
+          <a href="#">
+            <AiFillLinkedin className="w-12 h-12 shadow-xl" />
+          </a>
+          <a href="#">
+            <AiFillGithub className="w-12 h-12 shadow-xl" />
+          </a>
+          <a href="#">
+            <SiGmail className="w-12 h-12 shadow-xl" />
+          </a>
+          <a href="#">
+            <FaTwitter className="w-12 h-12 shadow-xl" />
+          </a>
           </div>
         </section>
         <footer className="footer flex justify-center  h-16 items-center text-center w-screen bg-teal-200 dark:bg-slate-800 dark:text-slate-900 transition duration-700 ">
