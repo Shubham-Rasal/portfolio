@@ -61,7 +61,7 @@ export const projects = [
     image: perceptron,
     description: "A simple perceptron built using javascript.",
     tech: ["Javascript"],
-    demos: "https://shubham-rasal.github.io/Perceptron/",
+    demo: "https://shubham-rasal.github.io/Perceptron/",
     github: "https://github.com/Shubham-Rasal/Perceptron",
     },
 

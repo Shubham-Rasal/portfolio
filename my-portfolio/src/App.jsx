@@ -110,7 +110,7 @@ export default function App() {
           <h1 className=" text-black p-3 m-3 text-4xl text-center justify-center flex items-start  font-semibold dark:text-teal-300 transition duration-700 border-b-4 w-1/2 border-teal-300 dark:border-teal-400 ">
             Contact
           </h1>
-          <div className="links p-4 m-4  flex w-screen items-center justify-center lg:gap-16">
+          <div className="links p-4 m-4  flex w-screen items-center justify-center lg:gap-16 gap-2">
 
           
           <a href="#">
