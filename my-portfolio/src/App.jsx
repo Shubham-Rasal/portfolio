@@ -113,16 +113,16 @@ export default function App() {
           <div className="links p-4 m-4  flex w-screen items-center justify-center lg:gap-16 gap-2">
 
           
-          <a href="#">
+          <a href="https://www.linkedin.com/in/shubhamrasal/">
             <AiFillLinkedin className="w-12 h-12 shadow-xl" />
           </a>
-          <a href="#">
+          <a href="https://github.com/Shubham-Rasal">
             <AiFillGithub className="w-12 h-12 shadow-xl" />
           </a>
-          <a href="#">
+          <a href="mailto: bluequbits@gmail.com">
             <SiGmail className="w-12 h-12 shadow-xl" />
           </a>
-          <a href="#">
+          <a href="https://twitter.com/justideas13">
             <FaTwitter className="w-12 h-12 shadow-xl" />
           </a>
           </div>
