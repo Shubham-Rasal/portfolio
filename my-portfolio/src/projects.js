@@ -4,6 +4,7 @@ import twitter from "./assets/twitter-clone.png";
 import waverapp from "./assets/waverapp.png";
 import ineural from "./assets/ineural.png";
 import perceptron from "./assets/perceptron.png";
+import mgame from "./assets/mgame.png";
 
 export const projects = [
   {
@@ -26,9 +27,20 @@ export const projects = [
     demo: "https://shubham-rasal.github.io/coders-dao/",
     github: "https://github.com/Shubham-Rasal/coders-dao",
   },
-
   {
     index: 3,
+    title: "Multiplayer Doodle Game",
+    image: mgame,
+    description:"This is a multiplayer doodle game where you can draw objects before the other players. It uses socket.io for real-time communication between the clients and the server.",
+    tech: ["HTML", "Tailwind", "Nodejs","express.js","ml5.js", "Socket.io"],
+    demo: "https://dgame.vercel.app/",
+    github: "https://github.com/Shubham-Rasal/wec22-multiplayer-game"
+
+
+  },
+
+  {
+    index: 4,
     title: "Twitter Clone",
     image: twitter,
     description:
@@ -38,7 +50,7 @@ export const projects = [
     github: "https://github.com/Shubham-Rasal/coders-dao",
   },
   {
-    index: 4,
+    index: 5,
     title: "My Waver App",
     image: waverapp,
     description:
@@ -48,7 +60,7 @@ export const projects = [
     github: "https://github.com/Shubham-Rasal/my-waver-app",
   },
     {
-    index: 5,
+    index: 6,
     title: "iNeural",
     image: ineural,
     description: "A simple neural network library built from scratch in  javascript. It can be used for image classification, regression, and clustering.",
@@ -56,7 +68,7 @@ export const projects = [
     github: "https://github.com/Shubham-Rasal/iNeural",
     },
     {
-    index: 6,
+    index: 7,
     title: "Perceptron",
     image: perceptron,
     description: "A simple perceptron built using javascript.",
