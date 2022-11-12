@@ -17,7 +17,7 @@ module.exports = {
       fontFamily: {
         'my-font': ['Inter', 'ui-sans-serif', 'system-ui'],
         'serif': ['ui-serif', 'Georgia'],
-        'pangolin': ['Pangolin', 'cursive'],
+        'mukta': ['Mukta', 'cursive'],
       },
      
     },

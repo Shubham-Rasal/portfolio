@@ -7,7 +7,7 @@ const SkillCard = ({name}) => {
           transition scale duration-700
           items-center justify-center m-4 cursor-pointer shadow-2xl 
            dark:bg-slate-800 dark:text-teal-200
-          dark:hover:bg-teal-200 dark:hover:text-slate-900            
+          dark:hover:bg-slate-700 dark:hover:text-slate-100            
             dark:hover:opacity-100
             dark:opacity-70
             dark:border-l-2

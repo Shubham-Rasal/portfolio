@@ -6,9 +6,9 @@ export const ProjectCard = ({ project }) => {
   console.log(project);
   return (
     <div
-      className="card w-screen h-auto m-16 p-2
+      className="card w-screen h-auto m-2 p-2
      flex flex-col items-center  dark:bg-slate-900 dark:text-teal-200
-     transition duration-700 bg-teal-50
+     transition duration-700 bg-teal-50 
     "
     >
       <div className="flex relative pb-6 w-screen items-center h-36">
@@ -47,7 +47,7 @@ export const ProjectCard = ({ project }) => {
             {project.description}
           </p>
           <div className="tech w-full   ">
-            <div className="flex w-full  flex-wrap items-center justify-center lg:justify-start">
+            <div className="flex w-full  flex-wrap items-center justify-center ">
               {project.tech.map((skill) => (
                 <div className="w-fit p-2 m-2 px-3 shadow-2xl shadow-slate-900  rounded-md dark:bg-slate-800   ">
                   {skill}

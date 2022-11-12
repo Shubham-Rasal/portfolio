@@ -34,7 +34,7 @@ export default function App() {
       <main
         className="md:snap-y  lg:snap-proximity md:snap-proximity  h-screen w-screen transition duration-700
        dark:bg-slate-900 dark:text-teal-300
-       font-pangolin 
+       font-mukta 
        bg-slate-100"
       >
         <section
@@ -57,13 +57,13 @@ export default function App() {
                    
                     "
           />
-          <h1 className="text-5xl   font-semibold text-teal-500 ">
+          <h1 className="text-5xl   font-semibold dark:text-teal-300 text-slate-800">
             Shubham Rasal
           </h1>
-          <h3 className="text-2xl transition duration-700 my-2n text-teal-600 dark:text-teal-400 ">
+          <h3 className="text-2xl transition duration-700 my-2n text-teal-500 dark:text-teal-400 ">
             Software Enthusiast
           </h3>
-          <p className="dark:text-teal-600 text-xl my-4 lg:w-1/2 w-full px-3  text-slate-700 text-center">
+          <p className="dark:text-teal-400 text-xl my-4 lg:w-1/2 w-full px-3  text-slate-700 text-center">
             I am a software developer who loves to build things that live on the
             internet, from websites to web apps. I specialize in building
             exceptional websites, applications, and everything in between. Some
@@ -94,7 +94,7 @@ export default function App() {
 
         <section className="projects flex flex-col items-center justify-center snap-center  h-fit w-screen bg-slate-200 dark:bg-slate-900 transition duration-700 ">
           <h1
-            className="text-4xl text-center justify-center flex items-start w-screen font-semibold font-pangolin
+            className="text-4xl text-center justify-center flex items-start w-screen font-semibold font-mukta
          dark:bg-slate-900 bg-slate-200 mt-2 dark:text-teal-300 transition duration-700 px-8 border-b-4 
          lg:w-1/2 border-teal-300 dark:border-teal-400 p-4 "
           >
@@ -110,7 +110,7 @@ export default function App() {
           <h1 className=" text-black p-3 m-3 text-4xl text-center justify-center flex items-start  font-semibold dark:text-teal-300 transition duration-700 border-b-4 w-1/2 border-teal-300 dark:border-teal-400 ">
             Contact
           </h1>
-          <div className="links p-4 m-4  flex w-screen items-center justify-center lg:gap-16 gap-2">
+          <div className="links p-4 m-4  flex w-screen items-center justify-center lg:gap-16 gap-8">
 
           
           <a href="https://www.linkedin.com/in/shubhamrasal/">

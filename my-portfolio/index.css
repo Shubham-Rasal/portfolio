@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +9,7 @@
 
 @layer base {
   html {
-    font-family: "Oxygen", sans-serif;
+    font-family: "Mukta", sans-serif;
   }
 }
 
