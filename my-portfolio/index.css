@@ -17,7 +17,7 @@
 /* * {
     outline: 1px solid #f00 !important; 
 } */
-.skillcard {
+.skillcard{
   border-image: radial-gradient(circle at top left , rgb(28, 255, 236),transparent 50%);
   border-image-slice: 1;
 }
